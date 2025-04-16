@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
-  },
+  "start": "node index.js",
+  "postinstall": "puppeteer install --accept-download"
+},
   "dependencies": {
     "express": "^4.18.2",
     "puppeteer": "^21.3.8"
